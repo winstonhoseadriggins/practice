@@ -1,0 +1,81 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+    font-weight: 300;
+}
+.text-muted {
+    color: #BCBBBB;
+    text-align: center;
+    font-size: 40px;
+}
+.text-thin {
+    font-weight: 100;
+}
+.title-super {
+    font-size: 45px;
+    font-weight: bold;
+}
+.title-logo {
+    margin-top: 20px;
+}
+.modal-title {
+        text-align: center;
+}
+.img-responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    text-align: center;
+}
+@media screen and (max-width: 767px) {
+    
+    .title-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title-super {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .sub-title {
+        text-align: center;
+    }
+    .text-muted {
+        text-align: center;
+    }
+    .modal-title {
+        text-align: center;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+    .title-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title-super {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .sub-title {
+        text-align: center;
+    }
+    .text-muted {
+        text-align: center;
+    }
+    .img-responsive {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .modal-title {
+        text-align: center;
+    }
+}
